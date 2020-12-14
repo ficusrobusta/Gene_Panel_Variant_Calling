@@ -50,8 +50,6 @@ qstat
 To kill a specific job:
 qdel 760053
 
-If you want to cancel and kill all your jobs:
-qdel -u hmw222
 
 
 
