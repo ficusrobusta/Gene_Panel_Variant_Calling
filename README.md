@@ -23,7 +23,7 @@ Remove any existing .sh.o and .sh.e files and the samples.txt file from previous
 
 For these gene_panel files, the names sould have the following structure: ${PROJECT}-*_S*_L*_R*_*.fastq.gz where the project name is defined by GC-JA-8284- which is the prefix to every sample followed by *_S*_L*_R*_*.fastq.gz
 
-You can then create a samples.txt file (three columns file which are sample, fastq 1 , fastq 2) for specific project using the following command:
+You can then create a samples.txt file (three columns file which are: sample, fastq 1 , fastq 2) for specific project using the following command:
 bash $SCRIPTS/gene_panel/make_sample_list.sh GC-JA-8592 > samples.txt
 
 If the file names do not have the project prefix, you can fix as follows:
