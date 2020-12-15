@@ -1,7 +1,8 @@
 # Gene_Panel_Variant_Calling
-Gene panel variant calling scripts, commands and instructions.
-
-Gene-panel variant calling Sept 2019
+Gene panel variant calling scripts, commands and instructions. This pipeline was designed for the following:
+- Bone marrow failure gene panel
+- Multiplex 150bp dual indexed libraries 
+- Miseq sequencing data
 
 Go to BaseSpace, open the project and click on the SAMPLES tab.
 Select all the fastq folders and click the Download Samples button (top right). Save them into a folder on the NAS. For this to work the first time, you need to install the Illumina Download app. 
