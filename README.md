@@ -1,6 +1,6 @@
 Gene_Panel_Variant_Calling
 
-{r}
+```
 Gene panel variant calling scripts, commands and instructions. This pipeline was designed for the following:
 - Bone marrow failure gene panel
 - Multiplex 150bp dual indexed libraries 
@@ -54,7 +54,7 @@ qstat
 To kill a specific job:
 qdel 760053
 
-
+```
 
 
 
