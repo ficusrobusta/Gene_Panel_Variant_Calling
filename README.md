@@ -1,5 +1,6 @@
+Gene_Panel_Variant_Calling
+
 ```{r}
-# Gene_Panel_Variant_Calling
 Gene panel variant calling scripts, commands and instructions. This pipeline was designed for the following:
 - Bone marrow failure gene panel
 - Multiplex 150bp dual indexed libraries 
