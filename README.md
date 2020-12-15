@@ -23,16 +23,16 @@ Delete the empty directories: rmdir
 Navigate back to the working directory
 Remove any existing .sh.o and .sh.e files and the samples.txt file from previous runs.
 
-For these gene_panel files, the names sould have the following structure: 
-${PROJECT}-*_S*_L*_R*_*.fastq.gz where the project name is defined by GC-JA-8284- which is the prefix to every sample followed by *_S*_L*_R*_*.fastq.gz
+For these gene_panel files, the names should have the following structure: 
+${PROJECT}-*_S*_L*_R*_*.fastq.gz where the project name is defined by, for example, GC-JA-8284- which is the prefix to every sample followed by *_S*_L*_R*_*.fastq.gz
 
-You can then create a samples.txt file (three columns file which are: sample, fastq 1 , fastq 2) for specific project using the following command:
-bash $SCRIPTS/gene_panel/make_sample_list.sh GC-JA-8592 > samples.txt
+You can then create a samples.txt file, containing three columns: sample, fastq 1 , fastq 2,for the specific project using the following command:
+bash $SCRIPTS/gene_panel/make_sample_list.sh GC-JA-8284 > samples.txt
 
 If the file names do not have the project prefix, you can fix as follows:
 for x in *fastq.gz; do mv ${x} GC-JA-8284-${x}; done
 
-The samples.txt file should appear in the Tom directory. To check it's there and to see it's contents:
+The samples.txt file should appear in the working directory. To check it's there and to see it's contents:
 cat samples.txt
 
 For each sample, this should list the following details:
