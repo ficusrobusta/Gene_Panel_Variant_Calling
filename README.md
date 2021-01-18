@@ -10,10 +10,10 @@ Go to BaseSpace, open the project and click on the SAMPLES tab.
 Select all the fastq folders and click the Download Samples button (top right). Save them into a folder on the NAS. For this to work the first time, you need to install the Illumina Download app. 
 
 Open up the Apocrita account and empty the following directories (having checked that all data required has been copied across to the NAS: 
-~/Blizard-BoneMarrowFailure/bam/b37/gene_panel
-~/Blizard-BoneMarrowFailure/csv/b37/gene_panel
-~/Blizard-BoneMarrowFailure/vcf/b37/gene_panel
-~/Blizard-BoneMarrowFailure/fastq/gene_panel
+~/Blizard-BoneMarrowFailure/bam/b37/gene_panel/
+~/Blizard-BoneMarrowFailure/csv/b37/gene_panel/
+~/Blizard-BoneMarrowFailure/vcf/b37/gene_panel/
+~/Blizard-BoneMarrowFailure/fastq/gene_panel/
 
 Using FileZilla, transfer the fastq files from the NAS to the ~/Blizard-BoneMarrowFailure/fastq/gene_panel directory
 Get each fastq file out of its folder: mv */*gz .
